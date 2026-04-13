@@ -1,30 +1,7 @@
 import {Row, Col, Card, Button} from 'react-bootstrap';
+import {movies} from './Data.js';
 
-function Bai3() {
-   const movies = [
-       {
-        "id":1,
-      "title": "The Matrix",
-      "duration": 136,
-      "director": "Wachowski Sisters",
-      "rating":8.7    
-    },
-    {
-        "id":2,
-      "title": "Inception",
-      "duration": 148,
-      "director": "Christopher Nolan",
-      "rating": 8.8,
-    },
-    {
-        "id":3,
-      "title": "The Godfather",
-      "duration": 180,
-      "director": "Francis Ford Coppola",
-      "rating":  8.5
-    }
-    ]
-
+function Bai3() { 
   return (
     <div>
       <Row>

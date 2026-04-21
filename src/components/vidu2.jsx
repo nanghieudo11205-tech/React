@@ -1,9 +1,17 @@
-import React from 'react'
-
-function vidu2() {
+import React from "react";
+function vidu2(props) {
+  const { mau, rong, cao } = props;
   return (
-    <div>vidu2</div>
-  )
+    <div
+      style={{
+        backgroundColor: mau,
+        width: rong,
+        height: cao,
+      }}
+    >
+
+    </div>
+  );
 }
 
-export default vidu2
+export default vidu2;
